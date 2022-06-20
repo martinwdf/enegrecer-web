@@ -30,9 +30,9 @@ const botoesRadio = ({ classes, botoes, state }) => {
       </div>
     );
   }
-  return (
+return (
     <div className={classes}>
-      {botoes.map(botaoRadio => (renderizaInputComum(classes, botaoRadio.id, botaoRadio.valor)))}
+      {botoes.map(_botaoRadio => (renderizaInputComum(classes)))}
     </div>
   );
 };
